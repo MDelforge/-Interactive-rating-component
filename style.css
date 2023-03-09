@@ -1,0 +1,169 @@
+html {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin : 0 ; 
+    padding: 0 ;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+body{
+
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Overpass", sans-serif;
+    color: white;
+    }
+
+
+    /* STEP 1 - START*/
+
+.step1{
+    background-color:hsl(213, 19%, 18%);
+    max-width: 25em;
+    padding: 1.7em;
+    margin: 1.5em;
+    border-radius: 1em;
+
+}
+
+.star{
+    background-color: hsl(213, 19%, 19%);
+    padding: 1em;
+    border-radius: 50%;
+    margin: 0.3em 0;
+  }
+
+.step1 h1{
+
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+
+}
+
+.step1 p{
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+    line-height: 2em;
+
+}
+
+.rates{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0 2em 0;
+}
+
+.rates .point{
+
+    background-color: hsl(213, 19%, 19%);
+    color: hsl(216, 12%, 54%);
+    cursor:pointer;
+    padding: 1.5em;
+    border-radius: 50%;
+    margin: 0.3em 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5em;
+    height: 3.5em;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 0.3s
+
+}
+.rates .point:hover{
+
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.rates .point:focus{
+
+    color: white;
+    background-color: hsl(216, 12%, 54%);
+}
+
+.step1 .submit {
+    width: 100%;
+    border: none;
+    border-radius: 10em;
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    padding: 1em 0;
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.step1 .submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+    /* STEP 1 - END*/
+
+.hidden {
+    display:none;
+}
+
+    /* STEP 2 - START */
+
+
+
+.step2{
+    background-color:hsl(213, 19%, 18%);
+    max-width: 25em;
+    padding: 1.7em;
+    margin: 1.5em;
+    border-radius: 1em;
+    text-align: center;
+
+}
+
+.step2 .rate-feedback {
+    max-width: 10em;
+    padding: 0.4em;
+    border-radius: 15em;
+    color: hsl(25, 97%, 53%);
+    margin: 2em auto ;
+    background-color: hsl(213, 19%, 19%);
+  }
+
+  .step2 h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+  }
+  
+  .step2 p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: hsl(216, 12%, 54%);
+  }
+
+    
+
+    /* STEP 2 - END */
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
